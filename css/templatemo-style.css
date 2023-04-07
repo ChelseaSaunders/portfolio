@@ -133,7 +133,7 @@ video {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
 }
 #video:after {
@@ -393,6 +393,18 @@ a#logo {
   color:#1e1e1e;
   background-color: #fff;
 }
+
+.bio {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255,255,255,1);
+  font-size:30px;
+}
+.bio:hover {
+  color:#1e1e1e;
+  background-color: #fff;
+}
+
 /*==============================================
 04. WELCOME BLOCK CSS
 ================================================*/
