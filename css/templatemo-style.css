@@ -575,7 +575,7 @@ a#logo {
   background-color: #fff;
   color: #1e1e1e;
 }
-.service-box, .contact-button h3 {
+.service-box h3, .contact-button h3 {
   font-size:22px;
   font-weight:700;
   text-transform: capitalize;
