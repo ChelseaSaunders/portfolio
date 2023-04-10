@@ -889,14 +889,55 @@ textarea.form-control {
 
 
 
-
-
-.Test-Lab-Logo {
+.Test-Lab {
   margin-right: 35px;
+  margin-left: 35px;
   border-radius: 10px;
+  background-color: rgba(250,250,250);
   opacity: 80%;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
+.Test-Lab-Description {
+  font-size:18px;
+  font-weight:400;
+  margin-bottom: 10px;
+  color: #1e1e1e;
+  text-align: left;
+}
+
+.Test-Lab-Logo {
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.testLab-button {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  color:#fff;
+  background: #1d689a;
+  border-color: #1d689a;
+  border:2px #1d689a;
+  text-align:center;
+  line-height:52px;
+  padding-top: 25px;
+  border-radius: 0px;
+  font-weight:600;
+  border-radius: 10px;
+  width: 100%;
+}
+.testLab-button:hover, .testLab-button:focus {
+  background: #07204c;
+  border-color: #07204c;
+}
+.testLab-button:focus {
+  box-shadow:none;
+  outline:none;
+}
 
 .get-in-touch {
   font-size: 20px;
