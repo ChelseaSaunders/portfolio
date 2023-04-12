@@ -569,7 +569,8 @@ a#logo {
   font-size: 64px;
 }
 .service-box {
-  font-size:15px;
+  font-size:16px;
+  font-weight:500;
   padding:40px 20px;
   height:100%;
 }
@@ -891,62 +892,56 @@ textarea.form-control {
   margin-left: 35px;
   border-radius: 10px;
   background-color: rgba(250,250,250, .25);
-  padding-top: 20px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-right: 20px;
   padding-left: 20px;
+  color: #fff;
 }
 
 .Test-Lab:hover {
   background-color: rgba(250,250,250, .75);
+  color: #1e1e1e;
 }
 
 .Test-Lab-Description {
   font-size:16px;
-  font-weight:400;
-  margin-bottom: 10px;
-  color: #3c3c3c;
+  font-weight:500;
+  margin-top: 30px;
+  margin-bottom: 50px;
   text-align: left;
   padding-right: 25px;
   padding-left: 25px;
 }
 
-.Test-Lab-Logo {
-  /* margin-top: 50px; */
-  /* margin-bottom: 75px; */
-}
-
 .architecture {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .testLab-button {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  /* margin-top: 25px; */
   margin-bottom: 10px;
-  margin-right: 5px;
+  margin-top: 10px;
   color:#fff;
-  background: #1d689a;
-  border-color: #1d689a;
-  border:2px #1d689a;
+  background: #254b71;
+  border: 2px #254b71;
   text-align:center;
-  /* line-height:52px;
-  padding-top: 25px; */
+  /* line-height:52px; */
+  padding-top: 25px;
   border-radius: 0px;
   font-weight:600;
   border-radius: 10px;
   width: 100%;
+  heigh: 100%;
 }
 .testLab-button:hover, .testLab-button:focus {
-  background: #07204c;
-  border-color: #07204c;
+  background: #0e2a59;
+  border-color: #0e2a59;
 }
 .testLab-button:focus {
   box-shadow:none;
   outline:none;
 }
-
-
 
 .get-in-touch {
   font-size: 20px;
@@ -1001,8 +996,9 @@ textarea.form-control {
 }
 
 .view {
-  /* margin-top: 20vh; */
   margin-bottom: 35vh;
+  margin-right: 40px;
+  margin-left: 40px;
   padding-top: 15vh;
 }
 
