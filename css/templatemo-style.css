@@ -999,3 +999,14 @@ textarea.form-control {
 .margin-top {
   margin-top: 100px;
 }
+
+.view {
+  /* margin-top: 20vh; */
+  margin-bottom: 35vh;
+  padding-top: 15vh;
+}
+
+.contact-me {
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
