@@ -25,7 +25,9 @@ CSS SITEMAP >>>>
 01. GENERAL CSS
 ================================================*/
 
-html,
+html {
+  scroll-behavior: smooth;
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -300,8 +302,9 @@ video {
 02. HEADER CSS
 ================================================*/
 #header {
-  padding:20px 0;
+  padding:10px 0;
   position: fixed;
+  background-color: #5084b8;
   left:0;
   right:0;
   top:0;
@@ -417,7 +420,7 @@ a#logo {
 }
 .bio:hover {
   color:#1e1e1e;
-  background-color: #fff;
+  background-color:  rgba(250,250,250,0.75);
 }
 
 /*==============================================
@@ -571,7 +574,7 @@ a#logo {
   height:100%;
 }
 .services-list .item:hover {
-  background-color: #fff;
+  background-color:  rgba(250,250,250,0.75);
   color: #1e1e1e;
 }
 .service-box h3, .contact-button h3 {
@@ -610,7 +613,7 @@ a#logo {
 }
 
 .owl-carousel .owl-dots .owl-dot.active {
-    background: #fff
+    background:  rgba(250,250,250,0.25);
 }
 
 /*==============================================
@@ -660,7 +663,7 @@ a#logo {
 .portfolio-item:hover .thumb-inner {
   border-radius: 10px;
   height: 100%;
-  background-color: rgba(250,250,250,0.9)
+  background-color:  rgba(250,250,250,0.25);
 }
 .portfolio-item:hover .thumb-inner h4 {
    margin-top: 30%;
@@ -888,14 +891,14 @@ textarea.form-control {
   margin-left: 35px;
   border-radius: 10px;
   background-color: rgba(250,250,250, .25);
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 20px;
+  padding-bottom: 80px;
   padding-right: 20px;
   padding-left: 20px;
 }
 
 .Test-Lab:hover {
-  background-color: #fff;
+  background-color: rgba(250,250,250, .75);
 }
 
 .Test-Lab-Description {
@@ -913,6 +916,9 @@ textarea.form-control {
   /* margin-bottom: 75px; */
 }
 
+.architecture {
+  margin-bottom: 20px;
+}
 .testLab-button {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -924,8 +930,8 @@ textarea.form-control {
   border-color: #1d689a;
   border:2px #1d689a;
   text-align:center;
-  line-height:52px;
-  padding-top: 25px;
+  /* line-height:52px;
+  padding-top: 25px; */
   border-radius: 0px;
   font-weight:600;
   border-radius: 10px;
@@ -939,6 +945,8 @@ textarea.form-control {
   box-shadow:none;
   outline:none;
 }
+
+
 
 .get-in-touch {
   font-size: 20px;
