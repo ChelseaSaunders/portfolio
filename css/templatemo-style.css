@@ -900,12 +900,12 @@ textarea.form-control {
 }
 
 .Test-Lab:hover {
-  background-color: rgba(250,250,250, .75);
+  background-color: rgba(250,250,250, .5);
   color: #1e1e1e;
 }
 
 .Test-Lab-Description {
-  font-size:16px;
+  font-size:17px;
   font-weight:500;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -926,7 +926,6 @@ textarea.form-control {
   background: #254b71;
   border: 2px #254b71;
   text-align:center;
-  /* line-height:52px; */
   padding-top: 25px;
   border-radius: 0px;
   font-weight:600;
@@ -1008,9 +1007,31 @@ textarea.form-control {
 }
 
 .feature-img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.feature {
+  margin-bottom: 40px;
+  background-color: rgba(250,250,250, .75);
+  color: #1e1e1e;
   border-radius: 10px;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
-.feature {
+.feature:hover {
+  background-color: #254b7179;
+  color: #fff
+}
 
+figcaption {
+  padding-top: 10px;
+  height: 80px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none;
 }
