@@ -420,7 +420,7 @@ a#logo {
 }
 .bio:hover {
   color:#1e1e1e;
-  background-color:  rgba(250,250,250,0.75);
+  background-color:  rgba(250,250,250,0.5);
 }
 
 /*==============================================
@@ -575,7 +575,7 @@ a#logo {
   height:100%;
 }
 .services-list .item:hover {
-  background-color:  rgba(250,250,250,0.75);
+  background-color:  rgba(250,250,250,0.5);
   color: #1e1e1e;
 }
 .service-box h3, .contact-button h3 {
@@ -931,11 +931,11 @@ textarea.form-control {
   font-weight:600;
   border-radius: 10px;
   width: 100%;
-  heigh: 100%;
+  height: 100%;
 }
 .testLab-button:hover, .testLab-button:focus {
-  background: #0e2a59;
-  border-color: #0e2a59;
+  background: #5084b8;
+  border-color: #fff;
 }
 .testLab-button:focus {
   box-shadow:none;
