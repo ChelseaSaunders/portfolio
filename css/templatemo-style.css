@@ -891,7 +891,7 @@ textarea.form-control {
   margin-right: 35px;
   margin-left: 35px;
   border-radius: 10px;
-  background-color: rgba(250,250,250, .25);
+  background-color: rgba(250,250,250, .4);
   padding-top: 40px;
   padding-bottom: 40px;
   padding-right: 20px;
@@ -899,10 +899,10 @@ textarea.form-control {
   color: #fff;
 }
 
-.Test-Lab:hover {
+/* .Test-Lab:hover {
   background-color: rgba(250,250,250, .5);
   color: #1e1e1e;
-}
+} */
 
 .Test-Lab-Description {
   font-size:17px;
@@ -912,6 +912,17 @@ textarea.form-control {
   text-align: left;
   padding-right: 25px;
   padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #254b7135;
+  color: #fff;
+
+  border-radius: 10px;
+}
+
+.Test-Lab-Description:hover {
+  background-color: rgba(250,250,250, .75);
+  color: #1e1e1e;
 }
 
 .architecture {
@@ -923,8 +934,8 @@ textarea.form-control {
   margin-bottom: 10px;
   margin-top: 60px;
   color:#fff;
-  background: #254b71;
-  border: 4px solid #254b71;
+  background: #254b7135;
+  border: 2px solid #fff;
   text-align:center;
   padding-top: 25px;
   border-radius: 0px;
@@ -934,8 +945,9 @@ textarea.form-control {
   height: 100%;
 }
 .testLab-button:hover, .testLab-button:focus {
-  background: #5084b8;
-  border-color: #fff;
+  /* background: #254b71ab; */
+  background: #fff;
+  color: #1e1e1e;
 }
 .testLab-button:focus {
   box-shadow:none;
@@ -1012,8 +1024,8 @@ textarea.form-control {
 }
 .feature {
   margin-bottom: 40px;
-  background-color: rgba(250,250,250, .75);
-  color: #1e1e1e;
+  background-color: #254b7135;
+  color: #fff;
   border-radius: 10px;
   padding-top: 8px;
   padding-left: 8px;
@@ -1021,13 +1033,13 @@ textarea.form-control {
 }
 
 .feature:hover {
-  background-color: #254b7179;
-  color: #fff
+  background-color: rgba(250,250,250, .75);
+  color: #1e1e1e;
 }
 
 figcaption {
   padding-top: 10px;
-  height: 80px;
+  height: 90px;
   font-size: 19px;
   font-weight: 500;
 }
