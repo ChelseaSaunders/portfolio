@@ -383,7 +383,7 @@ a#logo {
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
-  right:0;
+  right: 10px;
   z-index: 199;
 
 }
@@ -1007,7 +1007,7 @@ textarea.form-control {
 }
 
 .view {
-  margin-bottom: 35vh;
+  margin-bottom: 21vh;
   margin-right: 40px;
   margin-left: 40px;
   padding-top: 15vh;
