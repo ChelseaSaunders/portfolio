@@ -1018,7 +1018,7 @@ textarea.form-control {
 
 @media screen and (min-width: 2300px) {
   .view {
-    margin-bottom: 25vh;
+    padding-top: 25vh;
   }
 }
 
