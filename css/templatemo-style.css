@@ -1016,11 +1016,11 @@ textarea.form-control {
   padding-top: 15vh;
 }
 
-
-@media screen and (min-width: 2300px) {
-  div .view {
-    padding-top: 25vh !important;
-  }
+.first {
+  margin-bottom: 23vh;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-top: 16vh;
 }
 
 .contact-me {
