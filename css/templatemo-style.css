@@ -71,12 +71,13 @@ a {
   color: #fff;
   text-decoration: none;
 }
+
 a:hover,
 a:focus {
   color: #fff;
   outline: none;
   text-decoration: underline;
-}
+} */
 @media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
   a:active {
     background-color: transparent;
