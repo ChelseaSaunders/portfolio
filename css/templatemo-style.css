@@ -1057,3 +1057,7 @@ figcaption {
 a:hover {
   text-decoration: none;
 }
+
+.rounded-circle {
+  padding: 10px;
+}
